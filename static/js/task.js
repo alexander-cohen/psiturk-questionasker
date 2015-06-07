@@ -57,6 +57,7 @@ var QuestionExperiment = function() {
 	
 	var question = questions[Math.floor(Math.random()*questions.length)];
 	var object = objects[Math.floor(Math.random()*objects.length)];
+	console.log("loading page");
 	psiTurk.showPage('stage.html');
 
 	document.getElementById("question").innerHTML = "Question: " + question;
@@ -70,21 +71,19 @@ var finish = function(answer) {
 					innerHTML.substring(("Object: ").length);
 	console.log(question + " " + object);
 	psiTurk.recordTrialData([question, object, answer]);
+	psiTurk.saveData();
 	complete();
 };
 
 var complete = function() {
 	psiTurk.showPage('complete.html');
-	psiTurk.saveData();
 	psiTurk.completeHIT();
 }
-
-
-var currentview;
 
 /*******************
  * Run Task
  ******************/
 $(window).load( function(){
-    currentview = QuestionExperiment();
+    psiTurk.finishInstructions();
+    QuestionExperiment();
 });
