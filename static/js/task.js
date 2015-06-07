@@ -64,8 +64,9 @@ var QuestionExperiment = function() {
 };
 
 var finish = function(answer) {
-	var question = document.getElementById("question").innerHTML;
-	var object = document.getElementById("object").innerHTML;
+	var question = document.getElementById("question").innerHTML.substring(("Question: ").length);
+	var object = document.getElementById("object").innerHTML.substring(("Object: ").length);
+	console.log(question + " " + object);
 	psiTurk.recordTrialData([question, object, answer]);
 	psiTurk.saveData();
 	complete();
