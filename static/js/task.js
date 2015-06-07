@@ -64,16 +64,19 @@ var QuestionExperiment = function() {
 };
 
 var finish = function(answer) {
-	var question = document.getElementById("question").innerHTML.substring(("Question: ").length);
-	var object = document.getElementById("object").innerHTML.substring(("Object: ").length);
+	var question = document.getElementById("question").
+					innerHTML.substring(("Question: ").length); //otherwise won't be pure data
+	var object = document.getElementById("object").
+					innerHTML.substring(("Object: ").length);
 	console.log(question + " " + object);
 	psiTurk.recordTrialData([question, object, answer]);
-	psiTurk.saveData();
 	complete();
 };
 
 var complete = function() {
 	psiTurk.showPage('complete.html');
+	psiTurk.saveData();
+	psiTurk.completeHIT();
 }
 
 
