@@ -1981,3 +1981,1000 @@ OperationalError: (sqlite3.OperationalError) no such table: turkdemo [SQL: u'SEL
 2015-06-15 00:09:03,128 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
 [2015-06-15 00:39:59 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9199)
 2015-06-15 00:40:00,879 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 00:45:50,285 DB error: Unique user not found.
+2015-06-15 00:45:50,287 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:45:53,013 DB error: Unique user not found.
+2015-06-15 00:45:53,014 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:45:57,765 DB error: Unique user not found.
+2015-06-15 00:45:57,768 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:46:04,442 DB error: Unique user not found.
+2015-06-15 00:46:04,443 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:46:08,056 DB error: Unique user not found.
+2015-06-15 00:46:08,057 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:46:10,384 DB error: Unique user not found.
+2015-06-15 00:46:10,385 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:46:15,921 DB error: Unique user not found.
+2015-06-15 00:46:15,923 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:46:18,639 DB error: Unique user not found.
+2015-06-15 00:46:18,640 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:46:24,788 DB error: Unique user not found.
+2015-06-15 00:46:24,790 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:46:27,335 DB error: Unique user not found.
+2015-06-15 00:46:27,337 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:46:29,333 DB error: Unique user not found.
+2015-06-15 00:46:29,334 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:46:36,774 DB error: Unique user not found.
+2015-06-15 00:46:36,775 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:46:41,960 DB error: Unique user not found.
+2015-06-15 00:46:41,961 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:46:48,176 DB error: Unique user not found.
+2015-06-15 00:46:48,177 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:46:54,632 DB error: Unique user not found.
+2015-06-15 00:46:54,633 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:46:59,631 DB error: Unique user not found.
+2015-06-15 00:46:59,632 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:03,634 DB error: Unique user not found.
+2015-06-15 00:47:03,634 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:05,846 DB error: Unique user not found.
+2015-06-15 00:47:05,847 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:07,696 DB error: Unique user not found.
+2015-06-15 00:47:07,697 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:11,035 DB error: Unique user not found.
+2015-06-15 00:47:11,037 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:15,110 DB error: Unique user not found.
+2015-06-15 00:47:15,111 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:18,279 DB error: Unique user not found.
+2015-06-15 00:47:18,280 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:23,170 DB error: Unique user not found.
+2015-06-15 00:47:23,171 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:27,677 DB error: Unique user not found.
+2015-06-15 00:47:27,678 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:29,626 DB error: Unique user not found.
+2015-06-15 00:47:29,627 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:31,899 DB error: Unique user not found.
+2015-06-15 00:47:31,900 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:34,267 DB error: Unique user not found.
+2015-06-15 00:47:34,268 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:38,455 DB error: Unique user not found.
+2015-06-15 00:47:38,456 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:41,194 DB error: Unique user not found.
+2015-06-15 00:47:41,195 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:44,236 DB error: Unique user not found.
+2015-06-15 00:47:44,238 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:46,008 DB error: Unique user not found.
+2015-06-15 00:47:46,009 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:48,708 DB error: Unique user not found.
+2015-06-15 00:47:48,710 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:50,652 DB error: Unique user not found.
+2015-06-15 00:47:50,654 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:54,214 DB error: Unique user not found.
+2015-06-15 00:47:54,215 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:47:56,811 DB error: Unique user not found.
+2015-06-15 00:47:56,812 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:48:00,439 DB error: Unique user not found.
+2015-06-15 00:48:00,440 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:48:02,405 DB error: Unique user not found.
+2015-06-15 00:48:02,407 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:48:06,312 DB error: Unique user not found.
+2015-06-15 00:48:06,313 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:48:17,295 DB error: Unique user not found.
+2015-06-15 00:48:17,296 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:48:20,664 DB error: Unique user not found.
+2015-06-15 00:48:20,666 Exception on /sync/debugDNP38H:debugBI97WB [PUT]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 519, in update
+    'ascii', 'xmlcharrefreplace'
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-15 00:48:20,895 error_setting_worker_complete (1017) {'uniqueId': [u'debugDNP38H:debugBI97WB']}
+2015-06-15 00:48:24,956 DB error: Unique user not found.
+2015-06-15 00:48:24,957 Exception on /sync/debugDNP38H:debugBI97WB [GET]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 492, in load
+    "condition": user.cond,
+UnboundLocalError: local variable 'user' referenced before assignment
+[2015-06-15 01:19:27 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9198)
+[2015-06-15 01:19:27 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9200)
+[2015-06-15 01:19:27 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9201)
+[2015-06-15 01:19:27 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9202)
+[2015-06-15 01:19:27 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9203)
+[2015-06-15 01:19:27 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9205)
+[2015-06-15 01:19:27 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9206)
+[2015-06-15 01:19:27 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9279)
+2015-06-15 01:19:30,168 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 01:19:30,192 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 01:19:30,202 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 01:19:30,293 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 01:19:30,372 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 01:19:30,384 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 01:19:30,386 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 01:19:30,408 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 03:19:57 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9506)
+[2015-06-15 03:19:57 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9507)
+[2015-06-15 03:19:57 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9508)
+[2015-06-15 03:19:57 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9509)
+[2015-06-15 03:19:57 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9510)
+[2015-06-15 03:19:57 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9512)
+[2015-06-15 03:19:57 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9513)
+[2015-06-15 03:19:57 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9514)
+[2015-06-15 03:19:57 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9204)
+2015-06-15 03:20:02,236 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 03:20:02,239 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 03:20:02,241 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 03:20:02,242 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 03:20:02,267 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 03:20:02,286 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 03:20:02,303 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 03:20:02,308 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 03:20:02,319 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 04:20:42 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9888)
+[2015-06-15 04:20:42 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9889)
+[2015-06-15 04:20:42 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9890)
+[2015-06-15 04:20:42 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9891)
+[2015-06-15 04:20:42 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9892)
+[2015-06-15 04:20:42 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9893)
+[2015-06-15 04:20:42 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9894)
+[2015-06-15 04:20:42 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9886)
+[2015-06-15 04:20:42 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9887)
+2015-06-15 04:20:45,902 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 04:20:46,198 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 04:20:46,218 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 04:20:46,224 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 04:20:46,229 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 04:20:46,251 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 04:20:46,258 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 04:20:46,274 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 04:20:46,295 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 05:21:28 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9920)
+[2015-06-15 05:21:28 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9924)
+[2015-06-15 05:21:28 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9925)
+[2015-06-15 05:21:28 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9926)
+[2015-06-15 05:21:28 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9921)
+[2015-06-15 05:21:28 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9928)
+[2015-06-15 05:21:28 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9929)
+[2015-06-15 05:21:29 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9927)
+[2015-06-15 05:21:29 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9923)
+2015-06-15 05:21:31,819 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 05:21:31,912 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 05:21:31,908 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 05:21:31,926 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 05:21:31,933 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 05:21:31,934 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 05:21:31,943 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 05:21:31,947 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 05:21:31,960 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 06:22:14 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9939)
+[2015-06-15 06:22:14 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9941)
+[2015-06-15 06:22:14 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9942)
+[2015-06-15 06:22:14 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9943)
+[2015-06-15 06:22:14 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9944)
+[2015-06-15 06:22:14 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9945)
+[2015-06-15 06:22:14 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9946)
+[2015-06-15 06:22:14 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9947)
+[2015-06-15 06:22:14 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9948)
+2015-06-15 06:22:17,738 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 06:22:18,070 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 06:22:18,083 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 06:22:18,089 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 06:22:18,089 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 06:22:18,097 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 06:22:18,104 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 06:22:18,135 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 06:22:18,137 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 07:23:00 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9957)
+[2015-06-15 07:23:00 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9959)
+[2015-06-15 07:23:00 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9960)
+[2015-06-15 07:23:00 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9961)
+[2015-06-15 07:23:00 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9962)
+[2015-06-15 07:23:00 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9963)
+[2015-06-15 07:23:00 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9964)
+[2015-06-15 07:23:01 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9965)
+[2015-06-15 07:23:01 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9966)
+2015-06-15 07:23:03,725 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 07:23:03,999 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 07:23:04,062 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 07:23:04,109 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 07:23:04,128 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 07:23:04,205 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 07:23:04,231 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 07:23:04,263 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 07:23:04,298 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 08:23:46 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9985)
+[2015-06-15 08:23:46 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9986)
+[2015-06-15 08:23:46 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9977)
+[2015-06-15 08:23:46 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9978)
+[2015-06-15 08:23:46 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9979)
+[2015-06-15 08:23:46 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9980)
+[2015-06-15 08:23:46 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9981)
+[2015-06-15 08:23:46 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9982)
+[2015-06-15 08:23:46 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9983)
+2015-06-15 08:23:49,757 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:23:49,962 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:23:49,970 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:23:49,990 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:23:50,022 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:23:50,027 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:23:50,036 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:23:50,039 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:23:50,050 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 08:25:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9998)
+[2015-06-15 08:25:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:9999)
+[2015-06-15 08:25:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10000)
+[2015-06-15 08:25:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10001)
+[2015-06-15 08:25:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10002)
+[2015-06-15 08:25:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10003)
+[2015-06-15 08:25:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10004)
+[2015-06-15 08:25:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10005)
+[2015-06-15 08:25:35 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10006)
+2015-06-15 08:25:37,758 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:25:37,882 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:25:37,887 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:25:37,916 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:25:37,918 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:25:37,920 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:25:37,925 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:25:37,941 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 08:25:37,945 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 08:59:58 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10016)
+[2015-06-15 08:59:58 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10017)
+[2015-06-15 08:59:58 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10018)
+[2015-06-15 08:59:58 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10019)
+[2015-06-15 08:59:58 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10020)
+[2015-06-15 08:59:58 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10021)
+[2015-06-15 08:59:58 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10022)
+[2015-06-15 08:59:58 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10023)
+[2015-06-15 08:59:58 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10024)
+2015-06-15 09:00:03,882 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:00:04,005 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:00:04,022 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:00:04,085 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:00:04,109 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:00:04,110 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:00:04,124 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:00:04,126 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:00:04,147 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 09:30:47 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10036)
+[2015-06-15 09:30:47 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10037)
+[2015-06-15 09:30:47 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10038)
+[2015-06-15 09:30:47 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10039)
+[2015-06-15 09:30:47 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10040)
+[2015-06-15 09:30:47 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10041)
+[2015-06-15 09:30:47 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10042)
+[2015-06-15 09:30:47 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10043)
+[2015-06-15 09:30:48 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10044)
+2015-06-15 09:30:50,910 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:30:50,945 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:30:50,960 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:30:50,963 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:30:50,980 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:30:50,999 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:30:51,020 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:30:51,052 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 09:30:51,072 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 10:31:33 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10058)
+[2015-06-15 10:31:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10059)
+[2015-06-15 10:31:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10060)
+[2015-06-15 10:31:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10061)
+[2015-06-15 10:31:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10062)
+[2015-06-15 10:31:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10063)
+[2015-06-15 10:31:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10064)
+[2015-06-15 10:31:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10065)
+[2015-06-15 10:31:34 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10066)
+2015-06-15 10:31:37,140 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 10:31:37,239 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 10:31:37,308 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 10:31:37,338 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 10:31:37,356 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 10:31:37,392 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 10:31:37,405 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 10:31:37,406 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 10:31:37,447 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 11:32:19 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10079)
+[2015-06-15 11:32:20 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10080)
+[2015-06-15 11:32:20 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10081)
+[2015-06-15 11:32:20 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10082)
+[2015-06-15 11:32:20 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10083)
+[2015-06-15 11:32:20 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10084)
+[2015-06-15 11:32:20 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10085)
+[2015-06-15 11:32:20 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10086)
+[2015-06-15 11:32:20 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10087)
+2015-06-15 11:32:22,731 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 11:32:22,954 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 11:32:22,956 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 11:32:22,977 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 11:32:22,983 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 11:32:23,013 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 11:32:23,019 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 11:32:23,054 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 11:32:23,071 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 12:33:05 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10100)
+[2015-06-15 12:33:05 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10101)
+[2015-06-15 12:33:05 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10102)
+[2015-06-15 12:33:05 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10103)
+[2015-06-15 12:33:05 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10104)
+[2015-06-15 12:33:05 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10105)
+[2015-06-15 12:33:05 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10106)
+[2015-06-15 12:33:05 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10107)
+[2015-06-15 12:33:05 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10108)
+2015-06-15 12:33:09,002 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 12:33:09,196 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 12:33:09,202 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 12:33:09,204 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 12:33:09,212 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 12:33:09,224 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 12:33:09,232 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 12:33:09,260 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 12:33:09,267 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 13:33:51 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10120)
+[2015-06-15 13:33:51 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10122)
+[2015-06-15 13:33:51 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10123)
+[2015-06-15 13:33:51 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10124)
+[2015-06-15 13:33:51 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10125)
+[2015-06-15 13:33:51 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10126)
+[2015-06-15 13:33:51 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10127)
+[2015-06-15 13:33:51 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10128)
+[2015-06-15 13:33:51 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10129)
+2015-06-15 13:33:54,333 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:33:54,550 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:33:54,563 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:33:54,588 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:33:54,596 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:33:54,612 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:33:54,627 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:33:54,656 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 13:33:54,657 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 14:34:37 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10144)
+[2015-06-15 14:34:37 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10145)
+[2015-06-15 14:34:37 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10137)
+[2015-06-15 14:34:37 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10138)
+[2015-06-15 14:34:37 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10139)
+[2015-06-15 14:34:37 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10140)
+[2015-06-15 14:34:37 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10141)
+[2015-06-15 14:34:37 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10142)
+[2015-06-15 14:34:37 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10143)
+2015-06-15 14:34:40,601 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:34:40,726 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:34:40,827 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:34:40,845 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:34:40,856 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:34:40,863 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:34:40,869 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:34:40,894 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:34:40,903 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 14:36:24 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10155)
+[2015-06-15 14:36:24 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10156)
+[2015-06-15 14:36:24 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10157)
+[2015-06-15 14:36:24 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10158)
+[2015-06-15 14:36:24 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10159)
+[2015-06-15 14:36:24 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10160)
+[2015-06-15 14:36:24 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10161)
+[2015-06-15 14:36:24 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10162)
+[2015-06-15 14:36:25 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10163)
+2015-06-15 14:36:27,731 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:36:27,902 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:36:27,982 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:36:27,982 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:36:28,039 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:36:28,033 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:36:28,059 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:36:28,067 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 14:36:28,125 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 15:37:10 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10179)
+[2015-06-15 15:37:10 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10180)
+[2015-06-15 15:37:10 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10181)
+[2015-06-15 15:37:10 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10182)
+[2015-06-15 15:37:10 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10183)
+[2015-06-15 15:37:10 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10184)
+[2015-06-15 15:37:10 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10185)
+[2015-06-15 15:37:10 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10186)
+[2015-06-15 15:37:10 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10187)
+2015-06-15 15:37:13,895 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 15:37:14,061 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 15:37:14,072 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 15:37:14,092 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 15:37:14,143 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 15:37:14,152 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 15:37:14,187 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 15:37:14,194 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 15:37:14,219 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 16:24:41 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10199)
+[2015-06-15 16:24:41 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10200)
+[2015-06-15 16:24:41 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10201)
+[2015-06-15 16:24:41 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10202)
+[2015-06-15 16:24:41 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10203)
+[2015-06-15 16:24:41 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10204)
+[2015-06-15 16:24:41 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10205)
+[2015-06-15 16:24:41 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10206)
+[2015-06-15 16:24:42 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10207)
+2015-06-15 16:24:46,342 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 16:24:46,363 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 16:24:46,450 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 16:24:46,495 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 16:24:46,543 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 16:24:46,603 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 16:24:46,630 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 16:24:46,636 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 16:24:46,648 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-15 17:49:48 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10218)
+[2015-06-15 17:49:48 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10219)
+[2015-06-15 17:49:48 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10220)
+[2015-06-15 17:49:48 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10221)
+[2015-06-15 17:49:48 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10222)
+[2015-06-15 17:49:48 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10223)
+[2015-06-15 17:49:48 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10224)
+[2015-06-15 17:49:48 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10225)
+[2015-06-15 17:49:48 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:10226)
+2015-06-15 17:49:52,465 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 17:49:52,468 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 17:49:52,521 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 17:49:52,577 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 17:49:52,711 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 17:49:52,740 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 17:49:52,775 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 17:49:52,813 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-15 17:49:52,826 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js

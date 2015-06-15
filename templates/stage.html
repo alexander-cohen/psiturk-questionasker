@@ -2,20 +2,67 @@
 	<div id="trial">
 		<!-- <h1>Choose the option that best answers the question in the context of the object</h1> -->
 		<div style="margin: 40px; margin-left: 175px">
-      <h2 id="question" class = "text-left"></h2>
       <h2 id="object" class = "text-left"></h2>
+      <h2 id="question" class = "text-left"></h2>
     </div>
     
-    <div style>
-      <div style="display: inline-block; margin-right: 20px"><h4>Incorrect</h4></div>
-      <div style="display: inline-block;">
-        <input style="" class="span1" value="0" id="sl1" type="text" data-slider-min="-1" data-slider-max="1" 
-        data-slider-step="0.5" data-slider-value="0" data-slider-orientation="horizontal" 
-        data-slider-selection="none" data-slider-tooltip="hide">
+    <div>
+      <div style="display: inline-block; margin-right: 20px">
+        <h4>Definitely Not</h4>
       </div>
-      <div style="display: inline-block; margin-left: 20px"><h4>Correct</h4></div>
-      
-    </div>
+
+      <div style="display: inline-block;">
+        <div class="slider slider-horizontal" style="width: 256px;">
+
+          <div class="slider-track">
+           <div class="slider-tick" id="-1.0" style="left: 0%;"></div>
+           <div class="slider-tick" id="-0.5" style="left: 25%;"></div>
+           <div class="slider-tick" id="0.0" style="left: 50%;"></div>
+           <div class="slider-tick" id="0.5" style="left: 75%;"></div>
+           <div class="slider-tick" id="1.0" style="left: 100%;"></div>
+
+           <script>
+            $(".slider-tick").mousedown(
+                function() {
+                    $(this).addClass("mousedown");
+                },
+                function() {
+                    $(this).removeClass("mousedown");
+                }
+            );
+
+            $(".slider-tick").hover(
+                function() {
+                    $(this).addClass("hover");
+                },
+                function() {
+                    $(this).removeClass("hover");
+                }
+            );
+
+            $(".slider-tick").click(function() {
+                finish(Number($(this).id));
+            });
+           </script>
+
+            <div style="margin-top: 20px;">
+              <div class="slider-tick-label-container">
+                <div class="slider-tick-label" style="margin-left: -20px">1</div>
+                <div class="slider-tick-label" style="margin-left: 24px">2</div>
+                <div class="slider-tick-label" style="margin-left: 24px">3</div>
+                <div class="slider-tick-label" style="margin-left: 24px">4</div>
+                <div class="slider-tick-label" style="margin-left: 24px; margin-right: -23px">5</div>
+              </div>
+            </div>
+
+          </div>
+        
+        </div>
+      </div>
+      <div style="display: inline-block; margin-left: 20px">
+        <h4>Definitely Yes</h4>
+      </div>
+    </div>  
     <!-- <div style="margin: 40px">
         <input type="button" class="btn btn-success" value="Submit" onclick="finish();">
     </div> -->

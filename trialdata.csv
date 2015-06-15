@@ -1,0 +1,7 @@
+debug3V8EHG:debugGOA5NP,0,1434343744110,"{""phase"": ""INSTRUCTIONS"", ""templates"": [""instructions/instruct-ready.html""], ""action"": ""Begin""}"
+debug3V8EHG:debugGOA5NP,1,1434343745208,"{""phase"": ""INSTRUCTIONS"", ""indexOf"": 0, ""viewTime"": 1089, ""action"": ""FinishInstructions"", ""template"": ""instructions/instruct-ready.html""}"
+debug3V8EHG:debugGOA5NP,2,1434343747706,"[""DOES IT HAVE A HARD OUTER SHELL?"", ""TORNADO"", -1]"
+debug7XWDS9:debugO8TEVV,0,1434343760570,"{""phase"": ""INSTRUCTIONS"", ""templates"": [""instructions/instruct-ready.html""], ""action"": ""Begin""}"
+debug7XWDS9:debugO8TEVV,1,1434343761387,"{""phase"": ""INSTRUCTIONS"", ""indexOf"": 0, ""viewTime"": 800, ""action"": ""FinishInstructions"", ""template"": ""instructions/instruct-ready.html""}"
+debug7XWDS9:debugO8TEVV,2,1434343766821,"[""IS IT ALWAYS THE SAME COLOR(S)?"", ""RADIO"", -1]"
+debug7XWDS9:debugO8TEVV,3,1434343773898,"[""CAN YOU WALK ON IT?"", ""WIRE"", 0]"
