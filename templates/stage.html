@@ -1,14 +1,24 @@
 <div id="container-exp">
 	<div id="trial">
-		<h1>Choose the option that best answers the question in the context of the object</h1>
-		<h2 id="question" class = "text-left"></h5>
-		<h2 id="object" class = "text-left"></h5>
-		<div class="btn-group" role="group">
-  			<button type="button" class="btn btn-success btn-lg" onclick="finish(1.0);">Fully correct</button>
-  			<button type="button" class="btn btn-info btn-lg" onclick="finish(0.5);">Kind of correct</button>
-  			<button type="button" class="btn btn-default btn-lg" onclick="finish(0.0);">I don't know</button>
-  			<button type="button" class="btn btn-warning btn-lg" onclick="finish(-0.5);">Kind of incorrect</button>
-  			<button type="button" class="btn btn-danger btn-lg" onclick="finish(-1.0);">Fully incorrect</button>
-		</div>
+		<!-- <h1>Choose the option that best answers the question in the context of the object</h1> -->
+		<div style="margin: 40px">
+      <h2 id="question" class = "text-left"></h2>
+      <h2 id="object" class = "text-left"></h2>
+    </div>
+    
+    <div style>
+      <div style="display: inline-block; margin-right: 20px"><h4>Incorrect</h4></div>
+      <div style="display: inline-block;">
+        <input style="" class="span1" value="0" id="sl1" type="text" data-slider-min="-1" data-slider-max="1" 
+        data-slider-step="0.5" data-slider-value="0" data-slider-orientation="horizontal" 
+        data-slider-selection="none" data-slider-tooltip="hide">
+      </div>
+      <div style="display: inline-block; margin-left: 20px"><h4>Correct</h4></div>
+      
+    </div>
+    <div style="margin: 40px">
+        <input type="button" class="btn btn-success" value="Submit" onclick="finish();">
+    </div>
+    
 	</div>
 </div>

@@ -1,0 +1,13 @@
+<div id="container-exp">
+	<div id="trial">
+		<!-- <h1>Choose the option that best answers the question in the context of the object</h1> -->
+		<h2 id="question" class = "text-left"></h2>
+		<h2 id="object" class = "text-left"></h2>
+		<div class="btn-group" role="group">
+  			<button type="button" class="btn btn-success btn-lg" onclick="finish(1.0);">Fully correct</button>
+  			<button type="button" class="btn btn-info btn-lg" onclick="finish(0.5);">Kind of correct</button>
+  			<button type="button" class="btn btn-default btn-lg" onclick="finish(0.0);">I don't know</button>
+  			<button type="button" class="btn btn-warning btn-lg" onclick="finish(-0.5);">Kind of incorrect</button>
+  			<button type="button" class="btn btn-danger btn-lg" onclick="finish(-1.0);">Fully incorrect</button>
+		</div>
+</div>
