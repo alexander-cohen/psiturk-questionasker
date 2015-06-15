@@ -162,8 +162,12 @@
 .slider-tick-label {
   float: left;
   width: 40px;
+  /*for 500px:
   margin-left: 43.2px;
-  margin-right: 43.2px;
+  margin-right: 43.2px;*/
+
+  /*for 256px: */
+  margin-left: 25.4px;
 }
 
 .slider-tick-label.left-side {

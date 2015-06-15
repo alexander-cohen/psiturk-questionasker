@@ -1925,3 +1925,21 @@ OperationalError: (sqlite3.OperationalError) no such table: turkdemo [SQL: u'SEL
 2015-06-14 22:38:39,730 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
 2015-06-14 22:38:39,733 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
 2015-06-14 22:38:39,740 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-14 23:22:06 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:7947)
+[2015-06-14 23:22:07 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:7948)
+[2015-06-14 23:22:07 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:7949)
+[2015-06-14 23:22:07 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:7950)
+[2015-06-14 23:22:07 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:7951)
+[2015-06-14 23:22:07 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:7952)
+[2015-06-14 23:22:07 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:7953)
+[2015-06-14 23:22:07 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:7954)
+[2015-06-14 23:22:07 -0400] [2428] [CRITICAL] WORKER TIMEOUT (pid:7955)
+2015-06-14 23:22:09,946 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-14 23:22:10,001 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-14 23:22:10,019 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-14 23:22:10,042 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-14 23:22:10,075 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-14 23:22:10,116 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-14 23:22:10,126 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-14 23:22:10,138 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-14 23:22:10,142 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js

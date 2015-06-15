@@ -33,11 +33,11 @@
 								'<div class="slider-handle"></div>'+
 								'<div style="margin-top: 20px;">'+
 								'<div class="slider-tick-label-container">'+
-          						'<div class="slider-tick-label left-side">-1.0</div>'+
-          						'<div class="slider-tick-label">-0.5</div>'+
-         						'<div class="slider-tick-label">0.0</div>'+
-          						'<div class="slider-tick-label">0.5</div>'+
-          						'<div class="slider-tick-label right-side">1.0</div>'+
+          						'<div class="slider-tick-label" style="margin-left: -23px">-1.0</div>'+
+          						'<div class="slider-tick-label" style="margin-left: 24px">-0.5</div>'+
+         						'<div class="slider-tick-label" style="margin-left: 27px">0.0</div>'+
+          						'<div class="slider-tick-label" style="margin-left: 24px">0.5</div>'+
+          						'<div class="slider-tick-label" style="margin-left: 25px; margin-right: -23px">1.0</div>'+
         						'</div>'+
 							'</div>'+
 							'<div class="tooltip"><div class="tooltip-arrow"></div><div class="tooltip-inner"></div></div>'+
@@ -70,7 +70,7 @@
 			default:
 				this.picker
 					.addClass('slider-horizontal')
-					.css('width', 500);
+					.css('width', 256);
 				this.orientation = 'horizontal';
 				this.stylePos = 'left';
 				this.mousePos = 'pageX';
