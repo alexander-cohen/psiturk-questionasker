@@ -249,6 +249,9 @@
 					type: 'slide',
 					value: val
 				});
+
+			$(".slider-handle").css("opacity", 0.9);
+
 			return false;
 		},
 
@@ -310,7 +313,7 @@
 				.data('value', val)
 				.prop('value', val);
 
-			finish();
+			finish(); //finish when click on something
 
 			return false;
 		},
