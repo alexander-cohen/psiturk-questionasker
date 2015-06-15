@@ -74,6 +74,7 @@ var QuestionExperiment = function() {
 	});
 
 	$('#sl1').slider('setValue', 0);
+    $('.slider-handle').css('opacity', 0.0);
 
 	object = object.toUpperCase();
 
@@ -95,6 +96,7 @@ var QuestionExperiment = function() {
 }; */
 
 var finish = function() {
+    $('.slider-handle').css('opacity', 0.9);
     numTimesRun++;
     var question = document.getElementById("question").innerHTML; //otherwise won't be pure data
     var object = document.getElementById("object").
@@ -102,8 +104,8 @@ var finish = function() {
     var answer = $('#sl1').val();
     psiTurk.recordTrialData([question, object, Number(answer)]);
     psiTurk.saveData();
-    if(numTimesRun == answersToCollect) complete();
-    else QuestionExperiment();
+    if(numTimesRun == answersToCollect) setTimeout(complete, 200);
+    else setTimeout(QuestionExperiment, 200);
 }
 
 var complete = function() {

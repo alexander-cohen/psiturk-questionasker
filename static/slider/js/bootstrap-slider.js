@@ -309,6 +309,9 @@
 				})
 				.data('value', val)
 				.prop('value', val);
+
+			finish();
+
 			return false;
 		},
 
