@@ -52,6 +52,7 @@ function getRadioVal(form, name) {
 }
 
 var numTimesRun = 0;
+var answersToCollect = 40;
 
 /********************
 * ASK QUESTION      *
@@ -101,7 +102,7 @@ var finish = function() {
     var answer = $('#sl1').val();
     psiTurk.recordTrialData([question, object, Number(answer)]);
     psiTurk.saveData();
-    if(numTimesRun == 5) complete();
+    if(numTimesRun == answersToCollect) complete();
     else QuestionExperiment();
 }
 
