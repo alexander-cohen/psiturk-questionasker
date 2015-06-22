@@ -58,7 +58,7 @@
 
 			<div id="ad">
 				<div class="row">
-					<div class="col-xs-2">
+					<div class="col-xs-2" style="padding: 0">
 						<!-- REPLACE THE LOGO HERE WITH YOUR  UNIVERSITY, LAB, or COMPANY -->
 						<img id="adlogo" src="{{ server_location }}/static/images/university.png" alt="Lab Logo" />
 					</div>
@@ -98,10 +98,9 @@
 									openwindow() function below if you want you experiment
 									to work.
 								-->
-							    <h1>Thank you for accepting this HIT!</h1>
-
-
-								<a class="btn btn-primary btn-lg" href="{{ server_location }}/exp?hitId={{ hitid }}&assignmentId={{ assignmentid }}&workerId={{ workerid }}">
+							    <h1 style="margin-top:0px; margin-bottom: 6px">Thank you for accepting this HIT!</h1>
+							    <div style="margin-top: 27.5px; margin-bottom: 27.5px"><hr></div>
+								<a class="btn btn-primary btn-lg" href="{{ server_location }}/consent?hitId={{ hitid }}&assignmentId={{ assignmentid }}&workerId={{ workerid }}">
 								  Begin Experiment
 								</a>
 

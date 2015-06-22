@@ -22,14 +22,14 @@
            <div class="slider-tick" id="1.0" style="left: 100%;"></div>
 
            <script>
-            $(".slider-tick").mousedown(
-                function() {
+           $(document).ready(function(){
+                $("div").mousedown(function(){
                     $(this).addClass("mousedown");
-                },
-                function() {
+                });
+                $("div").mouseup(function(){
                     $(this).removeClass("mousedown");
-                }
-            );
+                });
+            });
 
             $(".slider-tick").hover(
                 function() {
