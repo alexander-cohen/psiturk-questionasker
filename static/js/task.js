@@ -76,12 +76,14 @@ var QuestionExperiment = function() {
 
 	var question = pair[0];
     var object = pair[1];
+
 	psiTurk.showPage('stage.html');
 
 	object = object.toUpperCase();
 
 	document.getElementById("question").innerHTML = question;
 	document.getElementById("object").innerHTML = "Object: " + object;
+    document.getElementById("question-on").innerHTML = "Question " + numTimesRun + " out of " + answersToCollect;
 };
 
 /* var old_finish = function(answer) {
