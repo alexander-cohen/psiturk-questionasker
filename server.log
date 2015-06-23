@@ -3191,3 +3191,123 @@ OSError: [Errno 32] Broken pipe
 2015-06-22 13:43:46,726 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
 2015-06-22 13:43:46,745 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
 2015-06-22 13:43:46,758 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:15:25,479 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:15:25,494 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:15:25,505 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:15:25,607 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:15:25,678 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:15:25,867 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:15:25,910 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:15:25,936 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:15:25,952 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:15:54,093 hit_assign_worker_id_not_set_in_exp (1003) {}
+2015-06-22 17:18:12,028 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:18:12,038 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:18:12,076 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:18:12,090 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:18:12,228 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:18:12,291 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:18:12,299 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:18:12,339 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:18:12,375 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:18:31,259 hit_assign_worker_id_not_set_in_exp (1003) {}
+2015-06-22 17:19:43,260 hit_assign_worker_id_not_set_in_exp (1003) {}
+2015-06-22 17:19:57,611 hit_assign_worker_id_not_set_in_exp (1003) {}
+2015-06-22 17:25:17,308 hit_assign_worker_id_not_set_in_exp (1003) {}
+2015-06-22 17:26:47,384 hit_assign_worker_id_not_set_in_exp (1003) {}
+2015-06-22 17:26:56,643 improper_inputs (1013) {}
+2015-06-22 17:27:00,914 improper_inputs (1013) {}
+2015-06-22 17:27:54,051 hit_assign_worker_id_not_set_in_exp (1003) {}
+2015-06-22 17:28:54,597 DB error: Unique user not found.
+2015-06-22 17:28:54,599 Exception on /sync/debug0CDF1J:debug4PQ5EA [GET]
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1817, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1477, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1381, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1475, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/flask/app.py", line 1461, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 492, in load
+    "condition": user.cond,
+UnboundLocalError: local variable 'user' referenced before assignment
+2015-06-22 17:29:10,251 hit_assign_worker_id_not_set_in_exp (1003) {}
+[2015-06-22 17:33:21 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:11697)
+[2015-06-22 17:33:21 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:11698)
+[2015-06-22 17:33:21 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:11699)
+[2015-06-22 17:33:21 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:11700)
+[2015-06-22 17:33:21 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:11701)
+[2015-06-22 17:33:21 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:11702)
+[2015-06-22 17:33:21 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:11703)
+[2015-06-22 17:33:21 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:11704)
+[2015-06-22 17:33:21 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:11705)
+2015-06-22 17:33:25,523 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:33:25,554 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:33:25,593 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:33:25,612 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:33:25,645 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:33:25,661 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:33:25,662 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:33:25,662 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 17:33:25,697 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-22 18:56:56 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12032)
+2015-06-22 18:56:58,379 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-22 18:59:39 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12119)
+2015-06-22 18:59:44,712 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 19:27:54,351 hit_assign_worker_id_not_set_in_exp (1003) {}
+2015-06-22 19:28:30,569 hit_assign_worker_id_not_set_in_exp (1003) {}
+2015-06-22 19:29:02,758 hit_assign_worker_id_not_set_in_exp (1003) {}
+[2015-06-22 19:31:02 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12033)
+[2015-06-22 19:31:02 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12034)
+[2015-06-22 19:31:02 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12035)
+[2015-06-22 19:31:02 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12036)
+[2015-06-22 19:31:02 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12038)
+[2015-06-22 19:31:02 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12136)
+2015-06-22 19:31:06,817 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 19:31:06,823 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 19:31:06,825 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 19:31:06,839 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 19:31:06,842 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 19:31:06,847 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 19:34:46,414 hit_assign_worker_id_not_set_in_exp (1003) {}
+2015-06-22 19:36:04,688 hit_assign_worker_id_not_set_in_exp (1003) {}
+[2015-06-22 19:51:44 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12037)
+[2015-06-22 19:51:44 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12039)
+[2015-06-22 19:51:44 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12364)
+[2015-06-22 19:51:44 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12365)
+[2015-06-22 19:51:44 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12366)
+[2015-06-22 19:51:44 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12367)
+[2015-06-22 19:51:44 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12368)
+[2015-06-22 19:51:44 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12369)
+[2015-06-22 19:51:44 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12031)
+2015-06-22 19:51:48,021 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 19:51:48,070 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 19:51:48,090 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 19:51:48,101 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 19:51:48,113 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 19:51:48,193 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 19:51:48,240 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 19:51:48,266 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 19:51:48,294 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-22 21:03:14 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12463)
+[2015-06-22 21:03:14 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12464)
+[2015-06-22 21:03:14 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12465)
+[2015-06-22 21:03:14 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12466)
+[2015-06-22 21:03:14 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12467)
+[2015-06-22 21:03:14 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12468)
+[2015-06-22 21:03:14 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12469)
+[2015-06-22 21:03:14 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12470)
+[2015-06-22 21:03:14 -0400] [11693] [CRITICAL] WORKER TIMEOUT (pid:12471)
+2015-06-22 21:03:20,215 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 21:03:20,219 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 21:03:20,221 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 21:03:20,227 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 21:03:20,230 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 21:03:20,231 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 21:03:20,232 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 21:03:20,236 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 21:03:20,245 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+2015-06-22 21:19:43,847 hit_assign_worker_id_not_set_in_exp (1003) {}

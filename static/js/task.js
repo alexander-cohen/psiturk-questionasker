@@ -15,6 +15,7 @@ var mycounterbalance = counterbalance;  // they tell you which condition you hav
 var pages = [
 	"instructions/instruct-ready.html",
 	"stage.html",
+    "post_questionnaire.html",
 	"complete.html"
 ];
 
@@ -63,7 +64,7 @@ function getRadioVal(form, name) {
 }
 
 var numTimesRun = 0;
-var answersToCollect = 40;
+var answersToCollect = 5;
 
 /********************
 * ASK QUESTION      *
@@ -106,22 +107,31 @@ var finish = function(answer) {
                     innerHTML.substring(("Object: ").length);
     psiTurk.recordTrialData([question, object, answer]);
     psiTurk.saveData();
-    if(numTimesRun == answersToCollect) setTimeout(complete, 200);
+    if(numTimesRun == answersToCollect) 
+        setTimeout(
+            function(){
+                psiTurk.showPage('post_questionnaire.html');
+            }, 200);
+
     else setTimeout(QuestionExperiment, 200);
 }
 
 var complete = function() {
 	psiTurk.showPage('complete.html');
+    var timeRan = (new Date().getTime() / 1000) - beginTime;
+    psiturk.recordUnstructuredData('time', timeRan);
+    // psiturk.recordUnstructuredData('comments', $("#comments").val());
 	psiTurk.completeHIT();
 }
 
 
-
+var beginTime;
 
 /*******************
  * Run Task
  ******************/
 $(window).load( function(){
+    beginTime = new Date().getTime() / 1000;
     psiTurk.doInstructions(
     	instructionPages, // a list of pages you want to display in sequence
     	function() {
