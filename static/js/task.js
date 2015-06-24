@@ -64,7 +64,7 @@ function getRadioVal(form, name) {
 }
 
 var numTimesRun = 0;
-var answersToCollect = 5;
+var answersToCollect = 50;
 
 /********************
 * ASK QUESTION      *
@@ -111,6 +111,7 @@ var finish = function(answer) {
         setTimeout(
             function(){
                 psiTurk.showPage('post_questionnaire.html');
+                document.getElementById("time").innerHTML = ((new Date().getTime() / 1000) - beginTime);
             }, 200);
 
     else setTimeout(QuestionExperiment, 200);
@@ -120,7 +121,7 @@ var complete = function() {
 	psiTurk.showPage('complete.html');
     var timeRan = (new Date().getTime() / 1000) - beginTime;
     psiturk.recordUnstructuredData('time', timeRan);
-    // psiturk.recordUnstructuredData('comments', $("#comments").val());
+    psiturk.recordUnstructuredData('comments', $("#comments").val());
 	psiTurk.completeHIT();
 }
 
