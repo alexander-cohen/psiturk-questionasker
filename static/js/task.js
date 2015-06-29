@@ -64,7 +64,7 @@ function getRadioVal(form, name) {
 }
 
 var numTimesRun = 0;
-var answersToCollect = 5;
+var answersToCollect = 100;
 ;
 
 /********************
