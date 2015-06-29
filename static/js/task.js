@@ -64,7 +64,7 @@ function getRadioVal(form, name) {
 }
 
 var numTimesRun = 0;
-var answersToCollect = 100;
+var answersToCollect = 5;
 ;
 
 /********************
@@ -90,7 +90,7 @@ var QuestionExperiment = function() {
 
 	document.getElementById("question").innerHTML = question;
 	document.getElementById("object").innerHTML = "Object: " + object;
-    document.getElementById("question-on").innerHTML = "Question " + numTimesRun + " out of " + answersToCollect;
+    document.getElementById("question-on").innerHTML = "Question " + (numTimesRun+1) + " out of " + answersToCollect;
 };
 
 /* var old_finish = function(answer) {
@@ -118,16 +118,18 @@ var finish = function(answer) {
             function(){
                 psiTurk.showPage('post_questionnaire.html');
                 //document.getElementById("time").innerHTML = ((new Date().getTime() / 1000) - beginTime);
-            }, 200);
+            }, 400);
 
-    else setTimeout(QuestionExperiment, 200);
+    else setTimeout(QuestionExperiment, 400);
 }
 
 var complete = function() {
+    var comments = document.getElementById("comments").value;
 	psiTurk.showPage('complete.html');
     var timeRan = (new Date().getTime() / 1000) - beginTime;
-    psiturk.recordUnstructuredData('time', timeRan);
-    psiturk.recordUnstructuredData('comments', $("#comments").val());
+    psiTurk.recordUnstructuredData('time', timeRan);
+    psiTurk.recordUnstructuredData('comments', comments);
+    psiTurk.saveData();
 	psiTurk.completeHIT();
 }
 
