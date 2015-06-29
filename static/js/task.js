@@ -113,9 +113,10 @@ var finish = function(answer) {
                     innerHTML.substring(("Object: ").length);
     psiTurk.recordTrialData([question, object, answer]);
     psiTurk.saveData();
-    if(numTimesRun == answersToCollect) 
+    if(numTimesRun >= answersToCollect) 
         setTimeout(
             function(){
+                $(".slider-tick").addClass("ischanging");
                 psiTurk.showPage('post_questionnaire.html');
                 //document.getElementById("time").innerHTML = ((new Date().getTime() / 1000) - beginTime);
             }, 400);

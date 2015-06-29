@@ -23,6 +23,10 @@
            <div class="slider-tick" id="1.0" style="left: 100%;"></div>
 
            <script>
+            function hasClass(element, cls) {
+              return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+            }
+
            $(document).ready(function(){
                 $("div").mousedown(function(){
                     $(this).addClass("mousedown");
@@ -30,20 +34,25 @@
                 $("div").mouseup(function(){
                     $(this).removeClass("mousedown");
                 });
+
+                $(".slider-tick").hover(
+                    function() {
+                        $(this).addClass("hover");
+                    },
+                    function() {
+                        $(this).removeClass("hover");
+                    }
+                );
+
+                $(".slider-tick").one('click', function(event) {
+                    event.preventDefault();
+                    //if(!hasClass(this, "ischanging"))
+                      finish(this.id);
+                });
+
             });
 
-            $(".slider-tick").hover(
-                function() {
-                    $(this).addClass("hover");
-                },
-                function() {
-                    $(this).removeClass("hover");
-                }
-            );
-
-            $(".slider-tick").click(function() {
-                finish(this.id);
-            });
+            
            </script>
 
             <div style="margin-top: 20px;">
