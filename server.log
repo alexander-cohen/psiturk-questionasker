@@ -3926,3 +3926,279 @@ UnboundLocalError: local variable 'user' referenced before assignment
 2015-06-29 14:32:35,591 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
 2015-06-29 14:32:35,615 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
 2015-06-29 14:32:35,658 /usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/psiturk_js/psiturk.js
+[2015-06-29 16:47:47 -0400] [16168] [CRITICAL] WORKER TIMEOUT (pid:16610)
+[2015-06-29 16:47:47 -0400] [16168] [CRITICAL] WORKER TIMEOUT (pid:16611)
+[2015-06-29 16:47:47 -0400] [16168] [CRITICAL] WORKER TIMEOUT (pid:16612)
+[2015-06-29 16:47:47 -0400] [16168] [CRITICAL] WORKER TIMEOUT (pid:16613)
+[2015-06-29 16:47:47 -0400] [16168] [CRITICAL] WORKER TIMEOUT (pid:16615)
+[2015-06-29 16:47:47 -0400] [16168] [CRITICAL] WORKER TIMEOUT (pid:16616)
+[2015-06-29 16:48:04 -0400] [18891] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 25, in <module>
+    from db import db_session, init_db
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/db.py", line 13, in <module>
+    engine = create_engine(DATABASE, echo=False)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py", line 386, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 74, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 92, in dbapi
+    return __import__('MySQLdb')
+ImportError: No module named MySQLdb
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 25, in <module>
+    from db import db_session, init_db
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/db.py", line 13, in <module>
+    engine = create_engine(DATABASE, echo=False)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py", line 386, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 74, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 92, in dbapi
+    return __import__('MySQLdb')
+ImportError: No module named MySQLdb
+[2015-06-29 16:48:04 -0400] [18888] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 25, in <module>
+    from db import db_session, init_db
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/db.py", line 13, in <module>
+    engine = create_engine(DATABASE, echo=False)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py", line 386, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 74, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 92, in dbapi
+    return __import__('MySQLdb')
+ImportError: No module named MySQLdb
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 25, in <module>
+    from db import db_session, init_db
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/db.py", line 13, in <module>
+    engine = create_engine(DATABASE, echo=False)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py", line 386, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 74, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 92, in dbapi
+    return __import__('MySQLdb')
+ImportError: No module named MySQLdb
+[2015-06-29 16:48:04 -0400] [18890] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 25, in <module>
+    from db import db_session, init_db
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/db.py", line 13, in <module>
+    engine = create_engine(DATABASE, echo=False)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py", line 386, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 74, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 92, in dbapi
+    return __import__('MySQLdb')
+ImportError: No module named MySQLdb
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 25, in <module>
+    from db import db_session, init_db
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/db.py", line 13, in <module>
+    engine = create_engine(DATABASE, echo=False)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py", line 386, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 74, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 92, in dbapi
+    return __import__('MySQLdb')
+ImportError: No module named MySQLdb
+[2015-06-29 16:48:05 -0400] [18889] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 25, in <module>
+    from db import db_session, init_db
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/db.py", line 13, in <module>
+    engine = create_engine(DATABASE, echo=False)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py", line 386, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 74, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 92, in dbapi
+    return __import__('MySQLdb')
+ImportError: No module named MySQLdb
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 25, in <module>
+    from db import db_session, init_db
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/db.py", line 13, in <module>
+    engine = create_engine(DATABASE, echo=False)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py", line 386, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 74, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 92, in dbapi
+    return __import__('MySQLdb')
+ImportError: No module named MySQLdb
+[2015-06-29 16:48:05 -0400] [18887] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 25, in <module>
+    from db import db_session, init_db
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/db.py", line 13, in <module>
+    engine = create_engine(DATABASE, echo=False)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py", line 386, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 74, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 92, in dbapi
+    return __import__('MySQLdb')
+ImportError: No module named MySQLdb
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 25, in <module>
+    from db import db_session, init_db
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/db.py", line 13, in <module>
+    engine = create_engine(DATABASE, echo=False)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py", line 386, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 74, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 92, in dbapi
+    return __import__('MySQLdb')
+ImportError: No module named MySQLdb
+[2015-06-29 16:48:05 -0400] [18892] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 25, in <module>
+    from db import db_session, init_db
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/db.py", line 13, in <module>
+    engine = create_engine(DATABASE, echo=False)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py", line 386, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 74, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 92, in dbapi
+    return __import__('MySQLdb')
+ImportError: No module named MySQLdb
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/arbiter.py", line 507, in spawn_worker
+    worker.init_process()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/workers/base.py", line 118, in init_process
+    self.wsgi = self.app.wsgi()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment_server.py", line 49, in load
+    return util.import_app("psiturk.experiment:app")
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/gunicorn/util.py", line 355, in import_app
+    __import__(module)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/experiment.py", line 25, in <module>
+    from db import db_session, init_db
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/psiturk/db.py", line 13, in <module>
+    engine = create_engine(DATABASE, echo=False)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/__init__.py", line 386, in create_engine
+    return strategy.create(*args, **kwargs)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/engine/strategies.py", line 74, in create
+    dbapi = dialect_cls.dbapi(**dbapi_args)
+  File "/usr/local/Cellar/python/2.7.8/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/sqlalchemy/dialects/mysql/mysqldb.py", line 92, in dbapi
+    return __import__('MySQLdb')
+ImportError: No module named MySQLdb
