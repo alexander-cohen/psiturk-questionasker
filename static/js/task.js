@@ -116,7 +116,7 @@ var finish = function(answer) {
         setTimeout(
             function(){
                 psiTurk.showPage('post_questionnaire.html');
-                document.getElementById("time").innerHTML = ((new Date().getTime() / 1000) - beginTime);
+                //document.getElementById("time").innerHTML = ((new Date().getTime() / 1000) - beginTime);
             }, 200);
 
     else setTimeout(QuestionExperiment, 200);
