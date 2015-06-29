@@ -1,22 +1,22 @@
 [HIT Configuration]
-title = Active Learning
-description = Answer a series of true false questions about everyday objects.
-amt_keywords = Survey, Psychology
+title = Answering questions about objects
+description = Answer simple questions about everyday objects
+amt_keywords = Psychology, feature ratings
 lifetime = 24
 us_only = true
 approve_requirement = 95
-contact_email_on_error = alxcoh@gmail.com
-ad_group = Default psiTurk Stroop Example
-psiturk_keywords = stroop
+contact_email_on_error = brenden@nyu.edu
+ad_group = 20 questions
+psiturk_keywords = feature ratings
 organization_name = New York University
 browser_exclude_rule = MSIE, mobile, tablet
 
 [Database Parameters]
-database_url = sqlite:///participants.db
-table_name = turkdemo
+database_url = mysql://lab:fishneversink@gureckislab.org/mt_experiments
+table_name = 20_questions_likelihood
 
 [Server Parameters]
-host = localhost
+host = 0.0.0.0
 port = 22362
 cutoff_time = 30
 logfile = server.log
