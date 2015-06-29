@@ -98,12 +98,23 @@
 									openwindow() function below if you want you experiment
 									to work.
 								-->
-							    <h1 style="margin-top:0px; margin-bottom: 6px">Thank you for accepting this HIT!</h1>
-							    <div style="margin-top: 27.5px; margin-bottom: 27.5px"><hr></div>
-								<a class="btn btn-primary btn-lg" href="{{ server_location }}/consent?hitId={{ hitid }}&assignmentId={{ assignmentid }}&workerId={{ workerid }}">
+							    <h1>Thank you for accepting this HIT!</h1>
+							    <p>
+							    	By clicking the following URL link, you will be taken to the experiment,
+							        including complete instructions and an informed consent agreement.
+							    </p>
+							    <script>
+									function openwindow() {
+							    		popup = window.open('{{ server_location }}/consent?hitId={{ hitid }}&assignmentId={{ assignmentid }}&workerId={{ workerid }}','Popup','toolbar=no,location=no,status=no,menubar=no,scrollbars=yes,resizable=no,width='+1024+',height='+768+'');
+							  		}
+							    </script>
+							    <div class="alert alert-warning">
+							    	<b>Warning</b>: Please disable pop-up blockers before continuing.
+							    </div>
+							    
+						    	<button type="button" class="btn btn-primary btn-lg" onClick="openwindow();">
 								  Begin Experiment
-								</a>
-
+								</button>
 							{% endif %}
 							<!-- 
 								endif
