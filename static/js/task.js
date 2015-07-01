@@ -85,7 +85,7 @@ var QuestionExperiment = function() {
     var question = questions[pair[1]];
     var object = objects[pair[0]];
 
-    pairs.slice(choice,1 );
+    pairs.slice(choice, 1);
 
 	psiTurk.showPage('stage.html');
 
